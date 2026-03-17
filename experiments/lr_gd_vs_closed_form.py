@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # -----------------------
 np.random.seed(0)
 n=100
-X=np.linspace(-5000,5000,n)
+X=np.linspace(-5,5,n)
 
 true_w=3
 true_b=2
@@ -80,17 +80,8 @@ plt.show()
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 440c1650d3cdd0b91ff19a781323174089194c93
 '''increasing lr gD chaos
 decreasing gD iterations, gD sucks
 making X huge(-5000,5000), gD scaling issue
 
-<<<<<<< HEAD
 Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
-=======
-Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
-
->>>>>>> 440c1650d3cdd0b91ff19a781323174089194c93
