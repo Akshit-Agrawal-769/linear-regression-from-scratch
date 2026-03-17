@@ -80,8 +80,17 @@ plt.show()
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 440c1650d3cdd0b91ff19a781323174089194c93
 '''increasing lr gD chaos
 decreasing gD iterations, gD sucks
 making X huge(-5000,5000), gD scaling issue
 
+<<<<<<< HEAD
 Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
+=======
+Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
+
+>>>>>>> 440c1650d3cdd0b91ff19a781323174089194c93
