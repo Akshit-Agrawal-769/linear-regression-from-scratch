@@ -80,5 +80,10 @@ plt.show()
 
 
 
-#increasing lr gD chaos
-#decreasing gD iterations, gD sucks
+
+'''increasing lr gD chaos
+decreasing gD iterations, gD sucks
+making X huge(-5000,5000), gD scaling issue
+
+Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
+
