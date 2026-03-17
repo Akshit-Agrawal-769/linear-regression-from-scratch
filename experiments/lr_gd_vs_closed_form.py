@@ -21,7 +21,7 @@ Y= true_w*X +true_b + noise
 w=0.0
 b=0.0
 
-lr=0.00000001
+lr=0.01
 epochs=1000
 
 for _ in range(epochs):
@@ -80,5 +80,8 @@ plt.show()
 
 
 
-#increasing lr gD chaos
-#decreasing gD iterations, gD sucks
+'''increasing lr gD chaos
+decreasing gD iterations, gD sucks
+making X huge(-5000,5000), gD scaling issue
+
+Optimization (GD) = Algebra (Normal Equation) = Geometry (Projection)'''
