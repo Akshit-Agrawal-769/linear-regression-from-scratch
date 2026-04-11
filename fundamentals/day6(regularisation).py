@@ -51,6 +51,7 @@ for _ in range(num_datasets):
 
     lambda_=0.1
     I=np.eye(X.shape[1])
+    I[-1, -1] = 0   # don't regularize bias
     theta = np.linalg.inv(X.T @ X + lambda_*I ) @ X.T @ y
     y_pred = X @ theta
 
@@ -91,9 +92,6 @@ plt.legend()
 plt.title("Bias-Variance Visualization")
 plt.show()
 
-# ===============================
-# LAMBDA PLOT
-# ===============================
 
 lambdas = np.logspace(-4, 3, 20)
 
