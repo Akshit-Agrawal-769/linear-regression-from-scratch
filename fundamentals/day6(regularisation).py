@@ -46,7 +46,7 @@ for _ in range(num_datasets):
     noise = np.random.normal(0, 2, len(x))
     y = true_function(x) + noise
 
-    # MODELS
+    #MODELS
     X = np.column_stack([x**i for i in range(1,10)]+ [np.ones(len(x))])
 
     lambda_=0.1
@@ -76,9 +76,7 @@ print("Variance:", variance)
 # -----------------------
 # Plot
 # -----------------------
-plt.figure(figsize=(8,5))
 
-# all models (faint)
 for pred in all_preds:
     plt.plot(x, pred, color='gray', alpha=0.1)
 
