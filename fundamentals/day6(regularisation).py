@@ -33,23 +33,20 @@ import matplotlib.pyplot as plt
 
 np.random.seed(0)
 
-# True function (the "reality")
 def true_function(x):
     return 0.5 * x**2 + 2*x + 1
 
 x = np.linspace(-3, 3, 100)
 
-# store predictions from many models
 all_preds = []
 
-# number of datasets
 num_datasets = 50
 
 for _ in range(num_datasets):
     noise = np.random.normal(0, 2, len(x))
     y = true_function(x) + noise
 
-    # TRY DIFFERENT MODELS
+    # MODELS
     X = np.column_stack([x**i for i in range(1,10)]+ [np.ones(len(x))])
 
     lambda_=0.1
