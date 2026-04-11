@@ -92,7 +92,7 @@ plt.title("Bias-Variance Visualization")
 plt.show()
 
 # ===============================
-# LAMBDA SWEEP EXPERIMENT
+# LAMBDA PLOT
 # ===============================
 
 lambdas = np.logspace(-4, 3, 20)
